@@ -26,4 +26,6 @@ My Task is to create the Student based Calculator, which calculates their Total 
 # Project VIDEO
 https://github.com/user-attachments/assets/57e29376-2c2c-4c1b-9f90-363dce4e8f2a
 
-# I Am Excited to doing this project and Excitedely Complete this project 
+<br/>
+
+ This internship has increased my interest in pursuing a career in Java Programming. I truly appreciate all of the time and effort that you and other staff spent training me. This has been a valuable learning experience. Thank you again for all your support, and for all of the opportunities you have given me.
