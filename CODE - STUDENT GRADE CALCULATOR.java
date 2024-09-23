@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Project2
+class CODE
 {
     public static void main(String args[])
     {
@@ -11,15 +11,13 @@ class Project2
         int marks[] = new int[5];
         int i;
         float total=0, avg;
-        Scanner scanner = new Scanner(System.in);
-		
-        
-        for(i=0; i<5; i++) { 
-           System.out.print("Enter Marks of Subject "+( i+1 )+":");
-           marks[i] = scanner.nextInt();
-           total = total + marks[i];
+        try (Scanner scanner = new Scanner(System.in)) {
+            for(i=0; i<5; i++) {
+                System.out.print("Enter Marks of Subject "+( i+1 )+":");
+                marks[i] = scanner.nextInt();
+                total = total + marks[i];
+            }
         }
-        scanner.close();
         //Your result is Here
         System.out.println("Your Result is Here : ");
         // Total Marks 
